@@ -6,7 +6,7 @@ Presenting Chico platform
 - A blogging platform that can post anything in lifestyle.
 
 SAMPLE ACCOUNT
-
+PS: Please enter the sample account coz I already uploaded some image so that you can see the sample posts.
 Email: mark@gmail.com
 Password:123123123
 
