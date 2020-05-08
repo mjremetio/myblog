@@ -1,4 +1,6 @@
 This platform is intended for project sample presentation, anything of the content is not intended subject to copyright.
+I use sqlite for the database
+~ I upload it on database folder named: 'database.sqlite'
 
 Presenting Chico platform
 - A blogging platform that can post anything in lifestyle.
