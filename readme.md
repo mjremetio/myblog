@@ -1,3 +1,33 @@
+This platform is intended for project sample presentation, anything of the content is not intended subject to copyright.
+
+Presenting Chico platform
+- A blogging platform that can post anything in lifestyle.
+
+SAMPLE ACCOUNT
+
+Email: mark@gmail.com
+Password:123123123
+
+Scope:
+the content of the platform is only beta so that the system functionalities are limited.
+- the user can post an image and a caption 
+- the user can follow other accounts
+- can view the posts
+- the user can update personal information
+
+Limitations
+-cannot search other users but if you want to search a user you must extend this into url: "http://wwww.yourURL.com/profile/theIdOftheUser".
+
+-cannot delete posts
+
+
+
+
+
+
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
