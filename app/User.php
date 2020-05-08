@@ -2,10 +2,11 @@
 
 namespace App;
 
+use App\Mail\NewUserAccountMail;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
+use Illuminate\Support\Facades\Mail;
 class User extends Authenticatable
 {
     use Notifiable;
@@ -45,7 +46,11 @@ class User extends Authenticatable
             $user->profile()->create([
                 'title' => $user->username,
             ]);
+            Mail::to($user->email)->send(new NewUserAccountMail());
         });
+
+       
+
     }
 
     public function posts()
